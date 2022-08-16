@@ -1,0 +1,9 @@
+G : -9.81                          # gravity on z-axis, in m/s^2
+TIME_STEP : 0.001                  # time step between each simulation
+CENTER_POS : [0., 0., 0.]          # center of the fence
+INTERNAL_LENGTH : 20               # internal length of the fence
+INTERNAL_WIDTH : 20                # internal width of the fence
+HEIGHT : 5                         # height of the fence
+THICKNESS : 2                      # thickness of the fence
+MASS : 10000.                      # mass of the fence
+COLOR : [1., 1., 1., 1.]           # color of the fence

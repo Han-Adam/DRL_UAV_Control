@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+
+<robot name="cf2">
+
+  <link name="base_link"> 
+
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="0.027"/>
+       <inertia ixx="1.40e-5" ixy="0.0" ixz="0.0" iyy="1.40e-5" iyz="0.0" izz="2.17e-5"/>
+    </inertial>
+
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="./cf2.dae" scale=" 1 1 1"/>
+        <!--cylinder radius=".06" length=".025"/-->
+      </geometry>
+      <material name="grey">
+        <color rgba=".5 .5 .5 1"/>
+      </material>
+    </visual>
+
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder radius=".06" length=".025"/>
+      </geometry>
+    </collision>  
+
+  </link>
+
+</robot>
+
